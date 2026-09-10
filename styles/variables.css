@@ -1,0 +1,51 @@
+/* importing fonts */
+
+@font-face {
+  font-family: 'Equateur';
+  src: url('../assets/fonts/Equateur-Regular.woff2') format('woff2');
+  font-weight: 400; /* regular */
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Discordia';
+  src: url('../assets/fonts/Discordia-Regular.woff2') format('woff2');
+  font-weight: 400; /* regular */
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Discordia';
+  src: url('../assets/fonts/Discordia-Italic.woff2') format('woff2');
+  font-weight: 400; /* regular */
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Vercetti';
+  src: url('../assets/fonts/Vercetti-Regular.woff2') format('woff2');
+  font-weight: 400; /* regular */
+  font-style: normal;
+  font-display: fallback;
+}
+
+/* setting variables */
+
+:root {
+    --color-bg: #F2F7FF;
+    --color-txt: #3C3FA6;
+    --color-em: #FFFFFF;
+
+    --font-body: normal 400 0.9em/1.2 "Discordia", serif;
+    --font-header: normal 400 4em/1 "Equateur", serif;
+    --font-labels: normal 400 0.8em/0.8 "Vercetti", sans-serif;
+    --font-buttons: bold 700 2em/1 "Inter", sans-serif;
+}
+
+html.dark {
+    --color-bg: #32335E;
+    --color-txt: #EBF0F9;
+    --color-em: #000000;
+}

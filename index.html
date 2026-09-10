@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Young Kyung Kim</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+        <div id="content">
+            <h1>Young-Kyung Kim</h1>
+            <div id="menu">
+                <span><a href="index.html" title="bio">BIO</a></span>&nbsp;&nbsp;•&nbsp;
+                <span><a title="under construction">RESEARCH</a></span>&nbsp;&nbsp;•&nbsp;
+                <span><a title="under construction">CV</a></span>
+            </div>
+            <div id="bio">
+                <p>My name is <span class="changing" data-img="img-y2k">Young-Kyung Kim</span>. I am a second-year PhD student in political science at <span class="changing" data-img="img-mit">the Massechusetts Institute of Technology</span>, studying <span class="changing" data-img="img-political_science">American politics and political methodology</span>.
+                <p>I am interested in political behavior and communication; specifically, how the expression of emotion mobilizes group identities. To better understand these, I use computational and mixed methods to probe different forms of political messaging.</p>
+                <p>Please feel free to <span class="changing" data-img="img-reach_out">reach out</span> at <a href="mailto:yngkyk@mit.edu">yngkyk [at] mit [dot] edu</a><span class="changing" data-img="img-punctuation">.</span>
+            </div>
+            <img src="assets/img/y2k.jpg" id="img-y2k">
+            <img src="assets/img/mit.jpg" id="img-mit">
+            <img src="assets/img/politicalscience.jpg" id="img-political_science">
+            <img src="assets/img/reachout.jpg" id="img-reach_out">
+            <img src="assets/img/punctuation.jpg" id="img-punctuation">
+            <div id="toggles">
+                <button id="theme-toggle" aria-label="toggle light/dark">☾</button>
+                <button id="tone-toggle" aria-label="toggle professional/friendly" onclick="textSwap()">❀</button>
+            </div>
+        </div>
+        <script src="scripts/textSwap.js"></script>
+        <script src="scripts/toggles.js"></script>
+        <script src="scripts/displayImg.js"></script>
+    </body>
+</html>
